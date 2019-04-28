@@ -5,3 +5,10 @@ function setup() {
 }
 
 function windowResized() { resizeCanvas(windowWidth, windowHeight); }
+
+function draw() {
+
+	fill(255,0,255);
+	ellipse(mouseX,mouseY,5,5);
+
+}
