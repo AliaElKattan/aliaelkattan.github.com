@@ -1,5 +1,5 @@
 var shuffle = false;
-var pr = 0, pg = 255, pb = 120;
+var pr = 0, pg = 255, pb = 255;
 
 function windowResized() {
   //console.log('resized');
