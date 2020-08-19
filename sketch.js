@@ -32,42 +32,43 @@ function draw() {
 
   fill(pr,pg-(mouseY/3),pb-(mouseY/3),120);
 
-	// fill(0,255-(mouseY/3),255-(mouseY/3),120);
+
 	rect(mouseX,mouseY,(mouseY/10),(mouseY/10));
 
 
-  fill(50,220,50);
-  rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
-  fill(0);
-  text("on",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
+//   fill(50,220,50);
+//   rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
+//   fill(0);
+//   text("on",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
 
 
- if (mouseX > (windowWidth-(windowWidth*.9)) && mouseX < (windowWidth - (windowWidth*.9) + 30) && mouseY > windowHeight-(windowHeight*.9) && mouseY < (windowHeight-(windowHeight*.9)+22)) {
-    fill(220,50,50);
-  rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
-  fill(255);
-  text("off",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);}
+//  if (mouseX > (windowWidth-(windowWidth*.9)) && mouseX < (windowWidth - (windowWidth*.9) + 30) && mouseY > windowHeight-(windowHeight*.9) && mouseY < (windowHeight-(windowHeight*.9)+22)) {
+//     fill(50,220,50);
+//   rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
+//   fill(255);
+//   text("on",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
+// }
 
-
-
-}
-
-else {
-  background(255);
-  fill(220,50,50);
-  rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
-  fill(255);
-  text("off",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
-
-  if (mouseX > (windowWidth-(windowWidth*.9)) && mouseX < (windowWidth - (windowWidth*.9) + 30) && mouseY > windowHeight-(windowHeight*.9) && mouseY < (windowHeight-(windowHeight*.9)+22)) {
-  fill(50,220,50);
-  rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
-  fill(0);
-  text("on",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
-}
 
 
 }
+
+// else {
+//   background(255);
+//   fill(220,50,50);
+//   rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
+//   fill(255);
+//   // text("off",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
+
+//   if (mouseX > (windowWidth-(windowWidth*.9)) && mouseX < (windowWidth - (windowWidth*.9) + 30) && mouseY > windowHeight-(windowHeight*.9) && mouseY < (windowHeight-(windowHeight*.9)+22)) {
+//   fill(220,50,50);
+//   rect(windowWidth-(windowWidth*.9), windowHeight-(windowHeight*.9),32,25,20);
+//   fill(0);
+//   text("off",windowWidth-(windowWidth*.9)+9, windowHeight-(windowHeight*.9)+16);
+// }
+
+
+// }
 
 }
 
