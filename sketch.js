@@ -33,7 +33,7 @@ function draw() {
   fill(pr,pg-(mouseY/3),pb-(mouseY/3),120);
 
 
-	rect(mouseX,mouseY,(mouseY/10),(mouseY/10));
+	// rect(mouseX,mouseY,(mouseY/10),(mouseY/10));
 
 
 //   fill(50,220,50);
