@@ -17,11 +17,14 @@ font-size: 2rem;
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-a, h4 {
+h4 {
  color: #0500CC !important;
 font-size: 1.2rem;
 }
 
+a {
+color: #0500cc !important;
+}
 
 #intro {
 	margin-top: 10%;
