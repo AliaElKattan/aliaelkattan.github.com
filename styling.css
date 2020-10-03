@@ -1,38 +1,136 @@
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+
+
+@media (min-width:450px) {
+.row {
+    width:80%;
+    margin-left:10% !important;
+    margin-right:10% !important;
+  }
+
+  .navbar {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 5vh;
+}
+
+#site-content {
+  padding-top: 5vh;
+}
+
+}
+
+.rect p{
+  margin-left: 2%;
+  background-color: red;
+  width: 40%;
+  margin-top: 1%;
+  display: inline-block;
+}
+
+.left-column {
+  margin-right: 3%;
+  width: 36.9%;
+  text-align: justify;
+  display:inline-block;
+}
+
+.separator {
+  width: .2%;
+  background-color: #80002a;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.right-column {
+  margin-left: 3%;
+  /*width: 44.9%;*/
+  width: 55.9%;
+  /*padding-top: 5vh;*/
+  text-align: justify;
+  display:inline-block;
+  /*background-color: red;*/
+}
+
+
+.navbar {
+  background: white;
+  color: black;
+}
+
+
+.navbar a {
+  color: #80002a !important;
+  text-decoration: none !important;
+}
+
+.navbar a:hover {
+  text-decoration:none;
+  border-bottom: none !important;
+  color: black !important;
+}
+
+
+.nav-active a {
+color:grey !important;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  /*color: #0500CC !important;*/
+font-size: 2rem;
+
+}
+
+.burgundy-filter:hover {
+  filter: invert(13%) sepia(65%) saturate(3088%) hue-rotate(320deg) brightness(90%) contrast(120%);
+}
+
+
 
 p {
 	font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
-font-size:1.05rem;
+font-size:1rem;
 		}
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	color: #0500CC !important;
-font-size: 2rem;
+font-size: 1.5rem;
 
 }
 
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-a, h4 {
- color: #0500CC !important;
-font-size: 1.2rem;
+a {
+  color: #80002a !important;
 }
 
-
-#intro {
-	margin-top: 10%;
-	text-align: left;
+a:hover {
+  color: #80002a;
+  border-bottom: 1px dotted#80002a;
+  text-decoration:none !important;
 }
 
 
-/*#page-content {
-  flex: 1 0 auto;
+.alt-link:hover {
+  text-decoration: none!important;
+  border-bottom: none !important;
 }
-*/
+
+
+h4 {
+	font-size: 1.2rem;
+}
+
+.navbar-toggler-icon {
+
+ background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
 
 .flex-container {
   padding: 0;
@@ -59,18 +157,101 @@ font-size: 1.2rem;
   float: left;
 }
 
-@media (max-width:449px) {
-	.row {
-		width:98%;
-		margin-left: 1% !important;
-		margin-right: 1% !important;
-	}
+.home-img {
+  width: 48%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  box-shadow: 2px 2px 0px grey;
+
 }
 
-@media (min-width:450px) {
+.home-img:hover {
+  box-shadow: 2px 2px 0px #80002a;
+}
+
+.about-img {
+  width: 100%; margin-top: 18%; margin-bottom: 10%;
+  box-shadow: 7px 7px 0px grey;
+}
+
+.about-img:hover {
+  box-shadow: 7px 7px 0px #80002a;
+}
+
+
+.project-img {
+   width: 98%; 
+   margin-bottom: 5%;
+  box-shadow: 5px 5px 0px grey;
+  min-width: 250px;
+}
+
+.project-img:hover {
+  box-shadow: 5px 5px 0px #80002a;
+}
+
+
+.project-img-small {
+  width: 47%;
+  margin-right: 2.5%;
+  margin-bottom:  5%;
+  box-shadow: 5px 5px 0px grey;
+  min-width: 250px;
+}
+
+
+.project-img-small:hover {
+  box-shadow: 5px 5px 0px #80002a;
+}
+
+.left-img {
+  margin-left: 1%;
+  margin-right: 1.5%;
+}
+
+.right-img {
+  margin-right: 1%;
+  margin-left: 1.5%;
+}
+
+
+@media (max-width: 449px) {
+  .project-img, .project-img-small {
+    width: 96%;
+    margin-left: 1.5% !important;
+    margin-right: 2.5% !important;
+    margin-bottom: 5%;
+  }
+
+  .left-img, .right-img {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .about-img {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    width: 96%;
+    margin-left: 1.5% !important;
+    margin-right: 2.5% !important;
+  }
+}
+
+
+
+@media (max-width:449px) {
 	.row {
-		width:60%;
-		margin-left:20% !important;
-		margin-right:20% !important;
+		width:92%;
+		margin-left: 4% !important;
+		margin-right: 4% !important;
 	}
+
+  .left-column {
+    width: 100%;
+    margin-right: 0%;
+  }
+  .right-column {
+    width: 100%;
+    margin-left: 0%;
+  }
 }
