@@ -113,8 +113,6 @@ a:hover {
   color: #80002a;
   border-bottom: 1px dotted#80002a;
   text-decoration:none !important;
-}
-
 
 .alt-link:hover {
   text-decoration: none!important;
@@ -254,4 +252,5 @@ h4 {
     width: 100%;
     margin-left: 0%;
   }
+
 }
