@@ -224,6 +224,9 @@ h4 {
     margin-bottom: 5%;
   }
 
+.project-img-small {
+  height: 10%;
+}
   .left-img, .right-img {
     margin-left: 0%;
     margin-right: 0%;
