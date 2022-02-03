@@ -197,9 +197,14 @@ h4 {
   margin-bottom:  5%;
   box-shadow: 5px 5px 0px grey;
   min-width: 250px;
-  height: 20%;
+  height: 13%;
 }
 
+@media(min-width:1300px) {
+.project-img-small {
+  height:20%;
+}
+}
 
 .project-img-small:hover {
   box-shadow: 5px 5px 0px #80002a;
@@ -216,7 +221,7 @@ h4 {
 }
 
 
-@media (max-width: 449px) {
+@media (max-width: 600px) {
   .project-img, .project-img-small {
     width: 96%;
     margin-left: 1.5% !important;
@@ -225,7 +230,7 @@ h4 {
   }
 
 .project-img-small {
-  height: 12%;
+  height:12%;
 }
   .left-img, .right-img {
     margin-left: 0%;
