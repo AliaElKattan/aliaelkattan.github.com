@@ -40,9 +40,8 @@ function draw(){
   }
 
  	fill(20);
-	rect(10,10,width-20,height-20, 15);
+	rect(windowWidth*.01,windowHeight*.01,width-windowWidth*.02,height-windowHeight*.02, 15);
 }
-
 
 class Shape {
   
@@ -110,3 +109,4 @@ class Shape {
     ellipse(this.x, this.y, this.diam);
   }
 }
+
