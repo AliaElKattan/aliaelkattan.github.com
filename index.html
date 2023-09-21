@@ -8,7 +8,10 @@
 
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon.ico">
 
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  
+  <script src="p5_script.js"></script>
 
 <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.slim.min.js"></script>
@@ -32,7 +35,7 @@
 <body>
 
  <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="#">Alia ElKattan</a>
+  <a class="navbar-brand" href="#" id="typing"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <!-- <span class="navbar-toggler-icon"></span> -->
   </button>
@@ -41,6 +44,182 @@
 
 </nav>
 
+<script>
+new TypeIt("#typing", { 
+    lifeLike: false, 
+    speed: 0 
+})
+  .type("A")
+  .pause(180)
+  .type("l")
+  .pause(124)
+  .type("i")
+  .pause(110)
+  .type("a")
+  .pause(175)
+  .type(" ")
+  .pause(280)
+  .type("E")
+  .pause(150)
+  .type("l")
+  .pause(287)
+  .type("K")
+  .pause(193)
+  .type("a")
+  .pause(266)
+  .type("t")
+  .pause(181)
+  .type("t")
+  .pause(144)
+  .type("a")
+  .pause(182)
+  .type("n")
+  .pause(1362)
+  .delete(1)
+  .pause(188)
+  .delete(1)
+  .pause(154)
+  .delete(1)
+  .pause(152)
+  .delete(1)
+  .pause(147)
+  .delete(1)
+  .pause(166)
+  .delete(1)
+  .pause(154)
+  .delete(1)
+  .pause(156)
+  .delete(1)
+  .pause(152)
+  .delete(1)
+  .pause(146)
+  .delete(1)
+  .pause(157)
+  .delete(1)
+  .pause(152)
+  .delete(1)
+  .pause(166)
+  .delete(1)
+  .pause(786)
+  .type("ع")
+  .pause(316)
+  .type("ا")
+  .pause(188)
+  .type("ل")
+  .pause(135)
+  .type("ي")
+  .pause(217)
+  .type("ة")
+  .pause(408)
+  .type(" ")
+  .pause(147)
+  .type("ا")
+  .pause(198)
+  .type("ل")
+  .pause(464)
+  .type("ف")
+  .pause(689)
+  .delete(1)
+  .pause(98)
+  .type("ق")
+  .pause(370)
+  .type("ط")
+  .pause(259)
+  .type("ا")
+  .pause(232)
+  .type("ن")
+  .pause(1088)
+  .delete(1)
+  .pause(56)
+  .delete(1)
+  .pause(131)
+  .delete(1)
+  .pause(190)
+  .delete(1)
+  .pause(150)
+  .delete(1)
+  .pause(155)
+  .delete(1)
+  .pause(148)
+  .delete(1)
+  .pause(132)
+  .delete(1)
+  .pause(152)
+  .delete(1)
+  .pause(153)
+  .delete(1)
+  .pause(140)
+  .delete(1)
+  .pause(140)
+  .delete(1)
+  .pause(161)
+  .type("a")
+  .pause(175)
+  .type("l")
+  .pause(83)
+  .type("i")
+  .pause(119)
+  .type("a")
+  .pause(2196)
+  .delete(1)
+  .pause(249)
+  .delete(1)
+  .pause(180)
+  .delete(1)
+  .pause(162)
+  .delete(1)
+  .pause(1939)
+  .type("k")
+  .pause(90)
+  .type("a")
+  .pause(106)
+  .type("t")
+  .pause(149)
+  .type("t")
+  .pause(84)
+  .type("a")
+  .pause(259)
+  .type("n")
+  .pause(1040)
+  .delete(1)
+  .pause(166)
+  .delete(1)
+  .pause(167)
+  .delete(1)
+  .pause(159)
+  .delete(1)
+  .pause(139)
+  .delete(1)
+  .pause(155)
+  .delete(1)
+  .pause(631)
+  .type("a")
+  .pause(112)
+  .type("l")
+  .pause(84)
+  .type("i")
+  .pause(228)
+  .type("a")
+  .pause(480)
+  .type(" ")
+  .pause(224)
+  .type("e")
+  .pause(121)
+  .type("l")
+  .pause(40)
+  .type("k")
+  .pause(136)
+  .type("a")
+  .pause(94)
+  .type("t")
+  .pause(139)
+  .type("t")
+  .pause(58)
+  .type("a")
+  .pause(87)
+  .type("n")
+  .go();
+</script>
 
 <div id="site-content" class="flex-container row">
 <div class="left-column">
@@ -48,13 +227,15 @@
 <h4><b>About</b></h4>
 
 <p>
-I'm Alia, an Egyptian creative technologist and researcher based between Brooklyn and Cairo. With a background in computer science and interactive media, I'm now a political science PhD student at NYU. My research interests are in the relationships between social media and political knowledge, participation, and public opinion.</p>
+I'm Alia, an Egyptian, Brooklyn-based creative technologist and NYU Politics PhD student. My research interests are in the political implications of online platforms and emerging technologies. </p>
 
 <p>
-  I build online interactive experiences that make the impact of technology on society more accessible and engaging for broad audiences. These include <a href="https://www.survivalofthebestfit.com/" target="_blank">Survival of the Best Fit</a>, an educational game on AI bias built by Jihyun Kim, Miha Klasinc, and Gabor Csapo with funding and support from <a href="https://foundation.mozilla.org/en/what-we-fund/awards/creative-media-awards/" target="_blank">Mozilla's Creative Media Award</a>. 
+  I build online interactive experiences about the impact of technology on society for broad audiences. These include <a href="https://www.survivalofthebestfit.com/" target="_blank">Survival of the Best Fit</a>, an educational game on AI bias built by Jihyun Kim, Miha Klasinc, and Gabor Csapo funded by a <a href="https://foundation.mozilla.org/en/what-we-fund/awards/creative-media-awards/" target="_blank">Mozilla Creative Media Award</a>. 
 </p>
 
-<p>Alongside <a href="https://lujainibrahim.com/" target="_blank">Lujain Ibrahim</a>, I co-built Multiplicity, an online curation of geographically diverse youth-centric articles on the sociopolitical and personal impacts of the internet. As grantees of another <a href="https://foundation.mozilla.org/en/blog/announcing-11-projects-exploring-ai-and-responsible-design/" target="_blank">Mozilla Creative Media Award</a>, Lujain and I are now building "The Algorithm" (live Jan 2024), an interactive simulation that demystifies how content is recommended on our algorithmically curated, video-based social media feeds (e.g., TikTok, Instagram Reels).</p>
+<p>Alongside <a href="https://lujainibrahim.com/" target="_blank">Lujain Ibrahim</a>, I co-built <a href="https://www.multiplicity.tech/" target="_blank">Multiplicity</a>, a curation of articles about the internet. As grantees of another <a href="https://foundation.mozilla.org/en/blog/announcing-11-projects-exploring-ai-and-responsible-design/" target="_blank">Mozilla Creative Media Award</a>, we're building "The Algorithm", a simulation that demystifies recommendation systems.</p>
+
+<p> I love skateboarding 🛹, <a href="https://10songs.substack.com" target="_blank">playlisting & personal writing 🎶</a>, and playing football ⚽. </p>
 
 <p>For more info, you can check my <a href="https://www.linkedin.com/in/aliaelkattan/" target="_blank">LinkedIn</a>. Feel free to contact me at <a href="mailto:alia.elkattan@nyu.edu" target="_blank">alia.elkattan@nyu.edu</a> or find me on <a href="https://twitter.com/aliaelkattan" target="_blank">Twitter</a>, <a href="https://www.instagram.com/aliaelkattan/">Instagram</a>,  <a href="https://github.com/aliaelkattan" target="_blank">GitHub</a>, and/or <a href="https://staging.bsky.app/profile/alia.bsky.social" target="_blank">Bluesky</a>.</p>
 
