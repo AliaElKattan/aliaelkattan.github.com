@@ -40,7 +40,7 @@ function draw(){
   }
 
  	fill(20);
-	rect(windowWidth*.006,windowHeight*.006,width-windowWidth*.012,height-windowHeight*.012, 15);
+	rect(0,windowHeight*.015,width-windowWidth*0,height-windowHeight*0, 2);
 }
 
 class Shape {

@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Helvetica', sans-serif;
-  background-color: #1f1f1f;
+  background-color: #141414;
 }
 
 
@@ -31,6 +31,7 @@ body {
   margin-left: 10%;
   text-align: justify;
   display:inline-block;
+
 }
 
 .separator {
@@ -266,9 +267,9 @@ h4 {
 
 @media (max-width:449px) {
 
-  #defaultCanvas0 {
+/*  #defaultCanvas0 {
     display: none;
-  }
+  }*/
 	.row {
 		width:92%;
 		margin-left: 4% !important;
@@ -283,9 +284,11 @@ h4 {
     width: 90%;
     margin-left: 5%;
     margin-top: 5%;
+     padding-bottom: 5%;
   }
 
   .navbar {
+    padding-top: 2rem;
     padding-left: 2rem;
   }
 }
