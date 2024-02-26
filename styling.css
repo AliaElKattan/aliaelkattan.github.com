@@ -5,7 +5,10 @@ body {
 }
 
 
-@media (min-width:450px) {
+@media only screen and (min-width:470px) {
+  #defaultCanvas0 {
+    display: block;
+  }
 .row {
     width:80%;
     margin-left:10% !important;
@@ -13,15 +16,44 @@ body {
   }
 
   .navbar {
-  padding-left: 10vw;
+  padding-left: 18vw;
   padding-right: 10vw;
   padding-top: 5vh;
 }
 
 #site-content {
-  padding-top: 5vh;
+  padding-top: 3vh;
 }
 
+.left-column {
+  margin-right: 3%;
+  width: 45%;
+  margin-left: 10%;
+  text-align: justify;
+  display:inline-block;
+}
+
+.separator {
+  width: 0%;
+  background-color: #00ffae;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+.right-column {
+  margin-left: 3%;
+  /*width: 44.9%;*/
+  width: 28%;
+  /*padding-top: 5vh;*/
+  text-align: justify;
+  display:inline-block;
+  /*background-color: red;*/
+}
+
+
+}
+
+ul {
+  color: white;
 }
 
 .rect p{
@@ -32,28 +64,6 @@ body {
   display: inline-block;
 }
 
-.left-column {
-  margin-right: 3%;
-  width: 47%;
-  text-align: justify;
-  display:inline-block;
-}
-
-.separator {
-  width: .2%;
-  background-color: #00ffae;
-  margin-top: 8%;
-  margin-bottom: 8%;
-}
-.right-column {
-  margin-left: 3%;
-  /*width: 44.9%;*/
-  width: 45%;
-  /*padding-top: 5vh;*/
-  text-align: justify;
-  display:inline-block;
-  /*background-color: red;*/
-}
 
 
 .navbar {
@@ -94,14 +104,14 @@ font-size: 2rem;
 
 
 p {
-	font-family: 'Courier New',  ;
+	font-family: 'Helvetica', sans-serif ;
 		font-weight: 100;
-font-size:.95rem;
+font-size:1.2rem;
 color: #cccccc;
 		}
 
 h1 {
-	font-family: 'Courier New', monospace;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: 500;
 font-size: 1.5rem;
 
@@ -127,7 +137,7 @@ a:hover {
 
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
    color: #8bff6e!important;
    font-weight: 300;
 }
@@ -255,6 +265,10 @@ h4 {
 
 
 @media (max-width:449px) {
+
+  #defaultCanvas0 {
+    display: none;
+  }
 	.row {
 		width:92%;
 		margin-left: 4% !important;
@@ -262,11 +276,16 @@ h4 {
 	}
 
   .left-column {
-    width: 100%;
-    margin-right: 0%;
+    width: 90%;
+    margin-left: 5%;
   }
   .right-column {
-    width: 100%;
-    margin-left: 0%;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .navbar {
+    padding-left: 2rem;
   }
 }
