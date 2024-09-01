@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
 
 body {
-  font-family: "Almarai", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #141414;
+  background-color: #1e1e1e;
 }
 
 
@@ -77,7 +77,7 @@ ul {
 
 
 .navbar a {
-  color: #8bff6e !important;
+  color: #ff9651 !important;
   text-decoration: none !important;
 }
 
@@ -94,7 +94,7 @@ color:grey !important;
 }
 
 .navbar-brand {
-   font-family: "Almarai", sans-serif;
+   font-family: "Lato", sans-serif;
   font-weight: 400;
   /*color: #0500CC !important;*/
 font-size: 2rem;
@@ -108,15 +108,15 @@ font-size: 2rem;
 
 
 p {
-	 font-family: "Almarai", sans-serif;
+	 font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
-font-size:1.2rem;
-color: #cccccc;
+font-size:1.1rem;
+color: white;
 		}
 
 h1 {
-	 font-family: "Almarai", sans-serif;
+	 font-family: "Lato", sans-serif;
   font-weight: 500;
 font-size: 1.5rem;
 
@@ -125,12 +125,12 @@ font-size: 1.5rem;
 a {
   /*color: #00ffae !important;*/
   /*color: #c561ff !important;*/
-  color: #8bff6e;
+  color: #ff9651;
 }
 
 a:hover {
-  color: #8bff6e;
-  border-bottom: 1px dotted #8bff6e;
+  color: #ff9651;
+  border-bottom: 1px dotted #ff9651;
   text-decoration:none !important;
 }
 
@@ -143,9 +143,9 @@ a:hover {
 
 h4 {
 	font-size: 1.5rem;
-   color: #8bff6e!important;
+   color: #ff9651!important;
    font-weight: 500;
-    font-family: "Almarai", sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 .navbar-toggler-icon {
@@ -188,7 +188,7 @@ h4 {
 }
 
 .home-img:hover {
-  box-shadow: 2px 2px 0px #8bff6e;
+  box-shadow: 2px 2px 0px #ff9651;
 }
 
 .about-img {
@@ -197,7 +197,7 @@ h4 {
 }
 
 .about-img:hover {
-  box-shadow: 7px 7px 0px #8bff6e;
+  box-shadow: 7px 7px 0px #ff9651;
 }
 
 
