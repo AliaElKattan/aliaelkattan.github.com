@@ -3,12 +3,29 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1"/>
+
   <title>Alia ElKattan</title>
 
 <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon.ico">
 
-  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  
+  <!-- <script src="p5_script.js"></script> -->
 
 <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.slim.min.js"></script>
@@ -32,59 +49,55 @@
 <body>
 
  <nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="index.html">Alia ElKattan</a>
+  <a class="navbar-brand" href="#" id="typing">Alia ElKattan</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <!-- <span class="navbar-toggler-icon"></span> -->
   </button>
         
   <span class="w-100"></span>
 
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item nav-active">
-        <a class="nav-link" href="research.html">Research</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="projects.html">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="press.html">Press</a>
-      </li>
 
-    </ul>
-  </div>
 </nav>
 
-
 <div id="site-content" class="flex-container row">
-
 <div class="left-column">
 
-<p><b>Research Interest</b></p>
-
-<p>Having studied computer and political science, my primary interest is in the impact of the internet and emerging technologies on politics. More specifically, I am interested in political disinformation and computational propaganda (e.g. Twitter bots), the expression of political ideology on social media, and the influence of social media on political mobilization and social movements.</p>
-
-</div>
-
-<div class="separator"></div>
-<div class="right-column" style="text-align: left">
-
-<p><b>Experience</b></p>
-
-
-<p><b>Sreenivasan Lab + Objects and Knowledge Lab</b>: building web-based Psychology experiments and libraries of functions to aid Psychology researchers in building web-native experiments to assist the virtual transition caused by COVID-19.<br>
-<br><b>Senior thesis</b>: Built machine learning models to detect political ideology of text using Twitter network data, tested on online news articles and legislative bills. <br>
-<br><b>Social Media & Political Participation Lab</b>: Worked as a research assistant on research drawing the relationship between viewing tweets about the Women's March and the decision to participate.<br>
-<br><b>NYUAD Applied Interactive Multimedia Lab</b>: Worked with C# code and 3D models in 3DS Max to build VR + haptic dental simulations for NYU Dentistry. </p>
-
-</ul>
-</div>
+<div class="menu">
+<h4><a href="index.html">about</a></h4>
+<h4 style="text-align: center;">research</h4>
+<h4 style="text-align: right"><a href="creative.html">creative</a></h4>
 
 </div>
 
+  <p style="text-align: left; margin-top: 2%"><b>Alia ElKattan</b> and Lujain Ibrahim. <a href=""> “The impact of literacy interventions on youth attitudes and behaviours towards LLMs”</a>.<i> Working paper.</i></p>
+
+  <p style="text-align: left">Christopher Barrie, Aybuke Atalay, and <b>Alia ElKattan</b>. <a href="">An enriched, multimodal social media dataset of a UK General Election campaign</a><i>. R&R at Journal for Quantitative Description.</i></p>
+
+  <p style="text-align: left"><b>Alia ElKattan</b>. <a href="">Seeing like a Skater: Skateboarding as Poetic Technology.</a><i> Forthcoming in Mediapolis: Journal of Cities and Culture.</i></p>
+
+  <p style="text-align: left">Christopher Barrie, <b>Alia ElKattan</b>, and Aybuke Atalay. <a href="">Measuring Attention to Politics Online with Clone Social Media Environments</a>. <i>Under review.</i></p>
+
+
+  <p style="text-align: left; margin-top: 2%"><b>Alia ElKattan</b> and Lujain Ibrahim. <a href="">“The Algorithm”: AI Literacy through playful, interactive, and accessible online experiences</a>. <i>Under review.</i></p>
+
+  <p style="text-align: left;"><b>Alia ElKattan.</b> <a href="">Swiping vs. Scrolling: The Impact of Social Media Design on the Acquisition of Political Knowledge.</a> <i>Under review</i></p>
+
+
+  </ul>
+
+<!-- <p> P.S. Here's the <a href="https://www.github.com/aliaelkattan/aliaelkattan.github.com">GitHub repo</a> for this site. Feel free to use it :)</p> -->
+
+
+</div>
+
+<div class="right-column">
+    <h4 style="color: black">recent projects</h4>
+    <a class="alt-link" href="https://whatsthealgorithm.com" target="_blank"><img class="home-img" src="img/thealgorithm_title.jpg"><a class="alt-link" href="https://www.multiplicity.tech" target="_blank"><img class="home-img" src="img/multiplicity.jpg"></a><a class="alt-link" href="https://www.survivalofthebestfit.com" target="_blank"><img class="home-img" src="img/automated-hiring.gif"></a>
+    
+
+</div>
+
+</div>
 
 
   </body>
